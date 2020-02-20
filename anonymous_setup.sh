@@ -1,7 +1,7 @@
 #!/bin/bash
 # The purpose of this script is to install and configure, and start vsftpd with anonymous-only access.
 # It is recommended that you do not run this script more than once to avoid duplicate entries in your /etc/vsftpd.conf file.
-# 
+# This script was adapted from instructions published by Melissa Anderson at https://www.digitalocean.com/community/tutorials/how-to-set-up-vsftpd-for-anonymous-downloads-on-ubuntu-16-04
 
 # Install vsftpd
 sudo apt-get update
